@@ -10,7 +10,7 @@ using namespace std;
 int lcsRec(string str1,string str2){
 
     if(str1.size() == 0 || str2.size()==0){
-        return 0;
+        return 0; 
     }
 
     int n = str1.size();
