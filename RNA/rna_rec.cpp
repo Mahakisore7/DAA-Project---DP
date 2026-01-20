@@ -42,7 +42,7 @@ int solve(int i, int j) {
             
             // If they pair, we get:
             // 1 (current pair)
-            // + best of "outside" (i to t-1)
+            // + best of "outside" (i to t-1
             // + best of "inside" (t+1 to j-1)
             int currentOption = 1 + solve(i, t - 1) + solve(t + 1, j - 1);
             
