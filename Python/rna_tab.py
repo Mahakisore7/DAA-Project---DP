@@ -16,7 +16,7 @@ def solve_tabulation(rna):
             j = i + k # End position
             
             # Option A: j is unpaired (take value from left neighbor)
-            dp[i][j] = dp[i][j-1]
+            dp[i][j] = dp[i][j-1]  
             
             # Option B: Try to pair j with t
             for t in range(i, j - 4):
