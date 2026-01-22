@@ -1,6 +1,5 @@
 def fibRec(n, memo):
   
-    # Base case
     if n <= 1:
         return n
 
